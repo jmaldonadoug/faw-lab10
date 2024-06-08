@@ -1,0 +1,18 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: calc(20% - 20px); /* 10% width with 20px margin */
+    display: inline-block;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}
